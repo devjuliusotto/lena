@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to top right, #ff7e5f, #feb47b);
+    font-family: 'Arial', sans-serif;
+    color: white;
+}
+
+.animation-wrapper {
+    text-align: center;
+}
+
+.image-wrapper {
+    margin-bottom: 20px;
+}
+
+.img-fluid {
+    max-width: 80%;
+    height: auto;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.heart-wrapper {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heart {
+    width: 200px;
+    height: 90px;
+    fill: #ff0000;
+    transform-origin: center;
+}
